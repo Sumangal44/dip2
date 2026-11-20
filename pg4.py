@@ -4,6 +4,5 @@ from PIL import Image
 img = Image.open('dog2.png')
 rotated = img.rotate(-85)
 rotated.save("rotated_img.png")
-img.show()
 rotated.show()
 print("rotated sccuessfully")

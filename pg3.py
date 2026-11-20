@@ -6,6 +6,5 @@ print(img.size)
 
 resized_img = img.resize((200, 200))
 resized_img.save("resized_img.png")
-img.show()
 resized_img.show()
 print("resized successfully")
